@@ -1,11 +1,12 @@
 var toTop=document.getElementById("toTop");
+var tp=document.getElementById("tp");
 	toTop.onmouseover=function(event){
 		toTop.innerHTML="<br />顶部";
-		toTop.style.opacity="1.0";
+		tp.style.opacity="1.0";
 	}
 	toTop.onmouseout=function(event){
 		toTop.innerHTML="<br />&uarr;";
-		toTop.style.opacity="0.8";
+		tp.style.opacity="0.8";
 	}
 	
 	var value=document.getElementsByClassName("value");
