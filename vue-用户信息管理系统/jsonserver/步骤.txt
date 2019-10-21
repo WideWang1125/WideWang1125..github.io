@@ -1,0 +1,23 @@
+1、配置json-server
+	1.全局安装
+	$npm install -g json-server
+	2.文件夹下的初始化
+	$npm init
+	3.项目安装保存
+	$npm install json-server --save
+	4.在package.json里设置
+	"scripts": {
+    		"json:server": "json-server --watch 		db.json"
+  	},
+	5.新建一个bd.json存数据
+	6.运行
+	$npm run json:server
+	7.完成显示本地数据存放链接
+	8.获取其他网站上的数据package.json中加
+	"json:server:remote":"json-server 	http://jsonplaceholder.typicode.com/db"
+
+2、Postman的使用
+	1.配置Headers下的key为Content-TYpe，
+	  value为application/json
+	2.对应链接的数据请求
+	POST  DELETE(删除)  PATCH(更新) 
